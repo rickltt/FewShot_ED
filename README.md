@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 For ACE2005, we adopt 30 classes in ACE2005 which have more than 10 instances and randomly divide them into subsets with 10, 10 and 10 classes for training, validation and test, respectively.
 
-For Maven, we adopt 100 classes in MAVEN which have more than 200 instances and randomly divide them into subsets with 64, 16 and 20 classes for training, validation and test, respectively.
+For MAVEN , we adopt 100 classes in MAVEN which have more than 200 instances and randomly divide them into subsets with 64, 16 and 20 classes for training, validation and test, respectively.
 
 For FewEvent, we adopt the version split by [Cong et al., 2021](https://aclanthology.org/2021.findings-acl.3.pdf), which contains 80, 10 and 10 event types for training, validation and test, respectively. 
 
@@ -25,7 +25,7 @@ For FewEvent, we adopt the version split by [Cong et al., 2021](https://aclantho
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | ACE2005      | 30   | 10      | 10      | 10 |
 | FewEvent  | 100      | 80     | 10 |20    |
-| Maven   | 100      | 64       |  16| 10     |
+| MAVEN   | 100      | 64       |  16| 10     |
 
 
 ## Models
