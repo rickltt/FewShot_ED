@@ -46,11 +46,15 @@ CRF-based:
 - **PA-CRF**: exploring event type dependencies via Gaussian distribution for approximation.
 
 
-## Results
+## Results (F1 scores)
+
+We run each experiment 5 times with 5 five different seeds to get the averages and standard deviations for fair comparison.
+
+### ACE2005
 
 | **Model**      | **5-way-5-shot** | **5-way-10-shot** | **10-way-5-shot** | **10-way-10-shot** |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Match      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| Match      | 46.74 $\pm$ 5.36 | 46.36 $\pm$ 4.54 | 38.5 $\pm$ 3.43  | (-,-,-) |
 | Proto      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | Proto-dot      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | Relation      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
