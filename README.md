@@ -21,9 +21,12 @@ For MAVEN , we adopt 100 classes in MAVEN which have more than 200 instances and
 
 For FewEvent, we adopt the version split by [Cong et al., 2021](https://aclanthology.org/2021.findings-acl.3.pdf), which contains 80, 10 and 10 event types for training, validation and test, respectively. 
 
+For ERE, we adopt the top 30 classes with the most samples and split into 10/10/10 for training, validation and test, respectively.
+
 | Dataset    | #Class | #Train | #Dev | #Test |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | ACE2005      | 30   | 10      | 10      | 10 |
+| ERE     | 30   | 10      | 10      | 10 |
 | FewEvent  | 100      | 80     | 10 |20    |
 | MAVEN   | 100      | 64       |  16| 10     |
 
@@ -60,9 +63,9 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | Relation      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | VanillaCRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | PACRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
-| ETS     | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| SpanFSED     | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 
-### FewEvent
+### ERE
 
 | **Model**      | **5-way-5-shot** | **5-way-10-shot** | **10-way-5-shot** | **10-way-10-shot** |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -72,7 +75,19 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | Relation      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | VanillaCRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | PACRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
-| ETS     | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| SpanFSED    | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+
+### FewEvent
+
+| **Model**      | **5-way-5-shot** | **5-way-10-shot** | **10-way-5-shot** | **10-way-10-shot** |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Match    | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| Proto      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| Proto-dot    | 45.47 $\pm$ 2.89 | 48.08 $\pm$ 2.79 | 32.28 $\pm$ 3.14  | (-,-,-) |
+| Relation      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| VanillaCRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| PACRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| SpanFSED    | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 
 ### MAVEN
 
@@ -84,4 +99,4 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | Relation      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | VanillaCRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
 | PACRF      | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
-| ETS     | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| SpanFSED    | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
