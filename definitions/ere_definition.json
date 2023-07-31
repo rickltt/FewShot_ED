@@ -1,0 +1,77 @@
+{
+"Justice:Charge-Indict": "A legal action where a formal accusation of a serious crime is made against a person or entity.",
+
+"Justice:Sentence": "The official punishment given by a court to an individual or group found guilty of a crime.",
+
+"Contact:Meet": "The event of two or more entities physically gathering in a location for a specific purpose or discussion.",
+
+"Justice:Arrest-Jail": "Law enforcement taking an individual into custody due to suspicion or charges of a crime, resulting in confinement.",
+
+"Transaction:Transaction": "The general event of exchanging goods, services, or financial resources between two or more parties.",
+
+"Conflict:Attack": "An aggressive action or assault intentionally directed at a person, place, or entity.",
+
+"Life:Die": "The event where an entity ceases to live, often due to natural causes, accident, or disease.",
+
+"Justice:Release-Parole": "The event where an incarcerated individual is conditionally released before the full sentence is served.",
+
+"Justice:Trial-Hearing": "A legal event where a dispute or a criminal case is examined and adjudicated by a court.",
+
+"Justice:Convict": "The official judgement by a court declaring someone guilty of a criminal offence.",
+
+"Justice:Sue": "The process of bringing a lawsuit against another entity, usually for damages or to enforce a right.",
+
+"Transaction:Transfer-Money": "The event of moving funds from one account or individual to another.",
+
+"Justice:Fine": "A monetary punishment imposed by a court or regulatory entity on a person or organization for violation of rules or laws.",
+
+"Personnel:End-Position": "The event of a person or an entity stopping or stepping down from a role or position.",
+
+"Movement:Transport-Person": "The act of moving individual(s) from one location to another.",
+
+"Contact:Broadcast": "The act of transmitting a message or information to a wide audience, usually through media channels.",
+
+"Contact:Contact": "The event of an individual or an organization initiating an interaction or communication with another party. ",
+
+"Contact:Correspondence": "The act of exchanging letters or messages between two or more parties.",
+
+"Personnel:Start-Position": "The event where an individual or an entity begins a new role or position.",
+
+"Justice:Appeal":"A further hearing of a legal case because the decision is contested by one party due to possible errors.",
+
+"Life:Injure": "An event where an individual or an entity is harmed or damaged, often as a result of an accident or violent occurrence.",
+
+"Transaction:Transfer-Ownership": "The process of passing the legal rights of possession of an asset from one individual or entity to another.",
+
+"Movement:Transport-Artifact": "The act of moving objects or items from one location to another. ",
+
+"Justice:Extradite": "The legal process where one jurisdiction delivers an individual accused or convicted of committing a crime in another jurisdiction.",
+
+"Justice:Acquit": "The legal decision by a court where an accused individual is declared not guilty of the charges.",
+
+"Justice:Execute": "The action of carrying out a judicially imposed capital punishment on a convicted individual.",
+
+"Business:Start-Org": "The act of forming or launching a new organization or institution.",
+
+"Business:End-Org": "The termination or dissolution of an organization or institution.",
+
+"Conflict:Demonstrate": "The act of a large group of people gathering publicly to show opposition or support for a cause or policy.",
+
+"Business:Declare-Bankruptcy": "The formal acknowledgment by a business or individual that they can't repay debts to creditors.",
+
+"Personnel:Elect": "The process in which an individual is voted into a public or organizational position by a collective vote.",
+
+"Life:Marry": "The formal legal or social union between two individuals.",
+
+"Life:Divorce": "The legal dissolution of a marriage between two individuals.",
+
+"Personnel:Nominate": "The act of proposing or endorsing a person for an appointment or election to a position.",
+
+"Justice:Pardon": "The act of forgiving or freeing an individual of a crime by a governing authority, waiving any remaining punishment.",
+
+"Life:Be-Born": "The event of coming into life or existence.",
+
+"Business:Merge-Org": "The corporate action where two or more entities combine to form a new organization.",
+
+"Manufacture:Artifact": "The production or crafting of objects using skill and, typically, machinery."
+}

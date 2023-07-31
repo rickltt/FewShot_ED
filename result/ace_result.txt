@@ -1,0 +1,240 @@
+***** Model: cosine , Dataset:ace, N:5, K:5, seed:1 *****
+Test result - F1 : 0.244510
+***** Model: cosine , Dataset:ace, N:5, K:5, seed:2 *****
+Test result - F1 : 0.240979
+***** Model: cosine , Dataset:ace, N:5, K:5, seed:3 *****
+Test result - F1 : 0.245923
+***** Model: cosine , Dataset:ace, N:5, K:5, seed:4 *****
+Test result - F1 : 0.239782
+***** Model: cosine , Dataset:ace, N:5, K:5, seed:5 *****
+Test result - F1 : 0.243100
+***** Model: cosine , Dataset:ace, N:5, K:10, seed:1 *****
+Test result - F1 : 0.396011
+***** Model: cosine , Dataset:ace, N:5, K:10, seed:2 *****
+Test result - F1 : 0.403609
+***** Model: cosine , Dataset:ace, N:5, K:10, seed:3 *****
+Test result - F1 : 0.400122
+***** Model: cosine , Dataset:ace, N:5, K:10, seed:4 *****
+Test result - F1 : 0.408567
+***** Model: cosine , Dataset:ace, N:5, K:10, seed:5 *****
+Test result - F1 : 0.402367
+***** Model: cosine , Dataset:ace, N:10, K:5, seed:1 *****
+Test result - F1 : 0.193281
+***** Model: cosine , Dataset:ace, N:10, K:5, seed:2 *****
+Test result - F1 : 0.190177
+***** Model: cosine , Dataset:ace, N:10, K:5, seed:3 *****
+Test result - F1 : 0.192998
+***** Model: cosine , Dataset:ace, N:10, K:5, seed:4 *****
+Test result - F1 : 0.195844
+***** Model: cosine , Dataset:ace, N:10, K:5, seed:5 *****
+Test result - F1 : 0.192209
+***** Model: cosine , Dataset:ace, N:10, K:10, seed:1 *****
+Test result - F1 : 0.269534
+***** Model: cosine , Dataset:ace, N:10, K:10, seed:2 *****
+Test result - F1 : 0.270249
+***** Model: cosine , Dataset:ace, N:10, K:10, seed:3 *****
+Test result - F1 : 0.269316
+***** Model: cosine , Dataset:ace, N:10, K:10, seed:4 *****
+Test result - F1 : 0.268202
+***** Model: cosine , Dataset:ace, N:10, K:10, seed:5 *****
+Test result - F1 : 0.268269
+***** Model: euclidean , Dataset:ace, N:5, K:5, seed:1 *****
+Test result - F1 : 0.530753
+***** Model: euclidean , Dataset:ace, N:5, K:5, seed:2 *****
+Test result - F1 : 0.534974
+***** Model: euclidean , Dataset:ace, N:5, K:5, seed:3 *****
+Test result - F1 : 0.542554
+***** Model: euclidean , Dataset:ace, N:5, K:5, seed:4 *****
+Test result - F1 : 0.532431
+***** Model: euclidean , Dataset:ace, N:5, K:5, seed:5 *****
+Test result - F1 : 0.533963
+***** Model: euclidean , Dataset:ace, N:5, K:10, seed:1 *****
+Test result - F1 : 0.329777
+***** Model: euclidean , Dataset:ace, N:5, K:10, seed:2 *****
+Test result - F1 : 0.341720
+***** Model: euclidean , Dataset:ace, N:5, K:10, seed:3 *****
+Test result - F1 : 0.346073
+***** Model: euclidean , Dataset:ace, N:5, K:10, seed:4 *****
+Test result - F1 : 0.354434
+***** Model: euclidean , Dataset:ace, N:5, K:10, seed:5 *****
+Test result - F1 : 0.330282
+***** Model: euclidean , Dataset:ace, N:10, K:5, seed:1 *****
+Test result - F1 : 0.506960
+***** Model: euclidean , Dataset:ace, N:10, K:5, seed:2 *****
+Test result - F1 : 0.504418
+***** Model: euclidean , Dataset:ace, N:10, K:5, seed:3 *****
+Test result - F1 : 0.507238
+***** Model: euclidean , Dataset:ace, N:10, K:5, seed:4 *****
+Test result - F1 : 0.506048
+***** Model: euclidean , Dataset:ace, N:10, K:5, seed:5 *****
+Test result - F1 : 0.507041
+***** Model: euclidean , Dataset:ace, N:10, K:10, seed:1 *****
+Test result - F1 : 0.326472
+***** Model: euclidean , Dataset:ace, N:10, K:10, seed:2 *****
+Test result - F1 : 0.326924
+***** Model: euclidean , Dataset:ace, N:10, K:10, seed:3 *****
+Test result - F1 : 0.325356
+***** Model: euclidean , Dataset:ace, N:10, K:10, seed:4 *****
+Test result - F1 : 0.329640
+***** Model: euclidean , Dataset:ace, N:10, K:10, seed:5 *****
+Test result - F1 : 0.324607
+***** Model: dot , Dataset:ace, N:5, K:5, seed:1 *****
+Test result - F1 : 0.237902
+***** Model: dot , Dataset:ace, N:5, K:5, seed:2 *****
+Test result - F1 : 0.236918
+***** Model: dot , Dataset:ace, N:5, K:5, seed:3 *****
+Test result - F1 : 0.235557
+***** Model: dot , Dataset:ace, N:5, K:5, seed:4 *****
+Test result - F1 : 0.228189
+***** Model: dot , Dataset:ace, N:5, K:5, seed:5 *****
+Test result - F1 : 0.240692
+***** Model: dot , Dataset:ace, N:5, K:10, seed:1 *****
+Test result - F1 : 0.194392
+***** Model: dot , Dataset:ace, N:5, K:10, seed:2 *****
+Test result - F1 : 0.195339
+***** Model: dot , Dataset:ace, N:5, K:10, seed:3 *****
+Test result - F1 : 0.195283
+***** Model: dot , Dataset:ace, N:5, K:10, seed:4 *****
+Test result - F1 : 0.195300
+***** Model: dot , Dataset:ace, N:5, K:10, seed:5 *****
+Test result - F1 : 0.192579
+***** Model: dot , Dataset:ace, N:10, K:5, seed:1 *****
+Test result - F1 : 0.140571
+***** Model: dot , Dataset:ace, N:10, K:5, seed:2 *****
+Test result - F1 : 0.140499
+***** Model: dot , Dataset:ace, N:10, K:5, seed:3 *****
+Test result - F1 : 0.141337
+***** Model: dot , Dataset:ace, N:10, K:5, seed:4 *****
+Test result - F1 : 0.141692
+***** Model: dot , Dataset:ace, N:10, K:5, seed:5 *****
+Test result - F1 : 0.140477
+***** Model: dot , Dataset:ace, N:10, K:10, seed:1 *****
+Test result - F1 : 0.111582
+***** Model: dot , Dataset:ace, N:10, K:10, seed:2 *****
+Test result - F1 : 0.110949
+***** Model: dot , Dataset:ace, N:10, K:10, seed:3 *****
+Test result - F1 : 0.110375
+***** Model: dot , Dataset:ace, N:10, K:10, seed:4 *****
+Test result - F1 : 0.108951
+***** Model: dot , Dataset:ace, N:10, K:10, seed:5 *****
+Test result - F1 : 0.109532
+***** Model: relation , Dataset:ace, N:5, K:5, seed:1 *****
+Test result - F1 : 0.109858
+***** Model: relation , Dataset:ace, N:5, K:5, seed:2 *****
+Test result - F1 : 0.112919
+***** Model: relation , Dataset:ace, N:5, K:5, seed:3 *****
+Test result - F1 : 0.111791
+***** Model: relation , Dataset:ace, N:5, K:5, seed:4 *****
+Test result - F1 : 0.111456
+***** Model: relation , Dataset:ace, N:5, K:5, seed:5 *****
+Test result - F1 : 0.116251
+***** Model: relation , Dataset:ace, N:5, K:10, seed:1 *****
+Test result - F1 : 0.227928
+***** Model: relation , Dataset:ace, N:5, K:10, seed:2 *****
+Test result - F1 : 0.241302
+***** Model: relation , Dataset:ace, N:5, K:10, seed:3 *****
+Test result - F1 : 0.227267
+***** Model: relation , Dataset:ace, N:5, K:10, seed:4 *****
+Test result - F1 : 0.231927
+***** Model: relation , Dataset:ace, N:5, K:10, seed:5 *****
+Test result - F1 : 0.238222
+***** Model: relation , Dataset:ace, N:10, K:5, seed:1 *****
+Test result - F1 : 0.051269
+***** Model: relation , Dataset:ace, N:10, K:5, seed:2 *****
+Test result - F1 : 0.050951
+***** Model: relation , Dataset:ace, N:10, K:5, seed:3 *****
+Test result - F1 : 0.054600
+***** Model: relation , Dataset:ace, N:10, K:5, seed:4 *****
+Test result - F1 : 0.056742
+***** Model: relation , Dataset:ace, N:10, K:5, seed:5 *****
+Test result - F1 : 0.053068
+***** Model: relation , Dataset:ace, N:10, K:10, seed:1 *****
+Test result - F1 : 0.127516
+***** Model: relation , Dataset:ace, N:10, K:10, seed:2 *****
+Test result - F1 : 0.124385
+***** Model: relation , Dataset:ace, N:10, K:10, seed:3 *****
+Test result - F1 : 0.126004
+***** Model: relation , Dataset:ace, N:10, K:10, seed:4 *****
+Test result - F1 : 0.123453
+***** Model: relation , Dataset:ace, N:10, K:10, seed:5 *****
+Test result - F1 : 0.126317
+***** Model: pacrf , Dataset:ace, N:5, K:5, seed:1 *****
+Test result - F1 : 0.524895
+***** Model: pacrf , Dataset:ace, N:5, K:5, seed:2 *****
+Test result - F1 : 0.524155
+***** Model: pacrf , Dataset:ace, N:5, K:5, seed:3 *****
+Test result - F1 : 0.527810
+***** Model: pacrf , Dataset:ace, N:5, K:5, seed:4 *****
+Test result - F1 : 0.521646
+***** Model: pacrf , Dataset:ace, N:5, K:5, seed:5 *****
+Test result - F1 : 0.532043
+***** Model: pacrf , Dataset:ace, N:5, K:10, seed:1 *****
+Test result - F1 : 0.440367
+***** Model: pacrf , Dataset:ace, N:5, K:10, seed:2 *****
+Test result - F1 : 0.399633
+***** Model: pacrf , Dataset:ace, N:5, K:10, seed:3 *****
+Test result - F1 : 0.434251
+***** Model: pacrf , Dataset:ace, N:5, K:10, seed:4 *****
+Test result - F1 : 0.409430
+***** Model: pacrf , Dataset:ace, N:5, K:10, seed:5 *****
+Test result - F1 : 0.425226
+***** Model: pacrf , Dataset:ace, N:10, K:5, seed:1 *****
+Test result - F1 : 0.369823
+***** Model: pacrf , Dataset:ace, N:10, K:5, seed:2 *****
+Test result - F1 : 0.362090
+***** Model: pacrf , Dataset:ace, N:10, K:5, seed:3 *****
+Test result - F1 : 0.373239
+***** Model: pacrf , Dataset:ace, N:10, K:5, seed:4 *****
+Test result - F1 : 0.369692
+***** Model: pacrf , Dataset:ace, N:10, K:5, seed:5 *****
+Test result - F1 : 0.363999
+***** Model: pacrf , Dataset:ace, N:10, K:10, seed:1 *****
+Test result - F1 : 0.289561
+***** Model: pacrf , Dataset:ace, N:10, K:10, seed:2 *****
+Test result - F1 : 0.285965
+***** Model: pacrf , Dataset:ace, N:10, K:10, seed:3 *****
+Test result - F1 : 0.282857
+***** Model: pacrf , Dataset:ace, N:10, K:10, seed:4 *****
+Test result - F1 : 0.280110
+***** Model: pacrf , Dataset:ace, N:10, K:10, seed:5 *****
+Test result - F1 : 0.282715
+***** Model: vanilla , Dataset:ace, N:5, K:5, seed:1 *****
+Test result - F1 : 0.282642
+***** Model: vanilla , Dataset:ace, N:5, K:5, seed:2 *****
+Test result - F1 : 0.277061
+***** Model: vanilla , Dataset:ace, N:5, K:5, seed:3 *****
+Test result - F1 : 0.273013
+***** Model: vanilla , Dataset:ace, N:5, K:5, seed:4 *****
+Test result - F1 : 0.266138
+***** Model: vanilla , Dataset:ace, N:5, K:5, seed:5 *****
+Test result - F1 : 0.278712
+***** Model: vanilla , Dataset:ace, N:5, K:10, seed:1 *****
+Test result - F1 : 0.422889
+***** Model: vanilla , Dataset:ace, N:5, K:10, seed:2 *****
+Test result - F1 : 0.413740
+***** Model: vanilla , Dataset:ace, N:5, K:10, seed:3 *****
+Test result - F1 : 0.413015
+***** Model: vanilla , Dataset:ace, N:5, K:10, seed:4 *****
+Test result - F1 : 0.414575
+***** Model: vanilla , Dataset:ace, N:5, K:10, seed:5 *****
+Test result - F1 : 0.423176
+***** Model: vanilla , Dataset:ace, N:10, K:5, seed:1 *****
+Test result - F1 : 0.113669
+***** Model: vanilla , Dataset:ace, N:10, K:5, seed:2 *****
+Test result - F1 : 0.113773
+***** Model: vanilla , Dataset:ace, N:10, K:5, seed:3 *****
+Test result - F1 : 0.114242
+***** Model: vanilla , Dataset:ace, N:10, K:5, seed:4 *****
+Test result - F1 : 0.113429
+***** Model: vanilla , Dataset:ace, N:10, K:5, seed:5 *****
+Test result - F1 : 0.112597
+***** Model: vanilla , Dataset:ace, N:10, K:10, seed:1 *****
+Test result - F1 : 0.158162
+***** Model: vanilla , Dataset:ace, N:10, K:10, seed:2 *****
+Test result - F1 : 0.158162
+***** Model: vanilla , Dataset:ace, N:10, K:10, seed:3 *****
+Test result - F1 : 0.160663
+***** Model: vanilla , Dataset:ace, N:10, K:10, seed:4 *****
+Test result - F1 : 0.158538
+***** Model: vanilla , Dataset:ace, N:10, K:10, seed:5 *****
+Test result - F1 : 0.157486

@@ -1,0 +1,240 @@
+***** Model: cosine , Dataset:fewevent, N:5, K:5, seed:1 *****
+Test result - F1 : 0.274352
+***** Model: cosine , Dataset:fewevent, N:5, K:5, seed:2 *****
+Test result - F1 : 0.273634
+***** Model: cosine , Dataset:fewevent, N:5, K:5, seed:3 *****
+Test result - F1 : 0.277276
+***** Model: cosine , Dataset:fewevent, N:5, K:5, seed:4 *****
+Test result - F1 : 0.274923
+***** Model: cosine , Dataset:fewevent, N:5, K:5, seed:5 *****
+Test result - F1 : 0.276710
+***** Model: cosine , Dataset:fewevent, N:5, K:10, seed:1 *****
+Test result - F1 : 0.243411
+***** Model: cosine , Dataset:fewevent, N:5, K:10, seed:2 *****
+Test result - F1 : 0.237745
+***** Model: cosine , Dataset:fewevent, N:5, K:10, seed:3 *****
+Test result - F1 : 0.241780
+***** Model: cosine , Dataset:fewevent, N:5, K:10, seed:4 *****
+Test result - F1 : 0.238910
+***** Model: cosine , Dataset:fewevent, N:5, K:10, seed:5 *****
+Test result - F1 : 0.237433
+***** Model: cosine , Dataset:fewevent, N:10, K:5, seed:1 *****
+Test result - F1 : 0.151723
+***** Model: cosine , Dataset:fewevent, N:10, K:5, seed:2 *****
+Test result - F1 : 0.152309
+***** Model: cosine , Dataset:fewevent, N:10, K:5, seed:3 *****
+Test result - F1 : 0.154540
+***** Model: cosine , Dataset:fewevent, N:10, K:5, seed:4 *****
+Test result - F1 : 0.151318
+***** Model: cosine , Dataset:fewevent, N:10, K:5, seed:5 *****
+Test result - F1 : 0.151749
+***** Model: cosine , Dataset:fewevent, N:10, K:10, seed:1 *****
+Test result - F1 : 0.196419
+***** Model: cosine , Dataset:fewevent, N:10, K:10, seed:2 *****
+Test result - F1 : 0.195958
+***** Model: cosine , Dataset:fewevent, N:10, K:10, seed:3 *****
+Test result - F1 : 0.197028
+***** Model: cosine , Dataset:fewevent, N:10, K:10, seed:4 *****
+Test result - F1 : 0.197243
+***** Model: cosine , Dataset:fewevent, N:10, K:10, seed:5 *****
+Test result - F1 : 0.193332
+***** Model: euclidean , Dataset:fewevent, N:5, K:5, seed:1 *****
+Test result - F1 : 0.449222
+***** Model: euclidean , Dataset:fewevent, N:5, K:5, seed:2 *****
+Test result - F1 : 0.446234
+***** Model: euclidean , Dataset:fewevent, N:5, K:5, seed:3 *****
+Test result - F1 : 0.452881
+***** Model: euclidean , Dataset:fewevent, N:5, K:5, seed:4 *****
+Test result - F1 : 0.451930
+***** Model: euclidean , Dataset:fewevent, N:5, K:5, seed:5 *****
+Test result - F1 : 0.451443
+***** Model: euclidean , Dataset:fewevent, N:5, K:10, seed:1 *****
+Test result - F1 : 0.227416
+***** Model: euclidean , Dataset:fewevent, N:5, K:10, seed:2 *****
+Test result - F1 : 0.226727
+***** Model: euclidean , Dataset:fewevent, N:5, K:10, seed:3 *****
+Test result - F1 : 0.224360
+***** Model: euclidean , Dataset:fewevent, N:5, K:10, seed:4 *****
+Test result - F1 : 0.221886
+***** Model: euclidean , Dataset:fewevent, N:5, K:10, seed:5 *****
+Test result - F1 : 0.219556
+***** Model: euclidean , Dataset:fewevent, N:10, K:5, seed:1 *****
+Test result - F1 : 0.305932
+***** Model: euclidean , Dataset:fewevent, N:10, K:5, seed:2 *****
+Test result - F1 : 0.307317
+***** Model: euclidean , Dataset:fewevent, N:10, K:5, seed:3 *****
+Test result - F1 : 0.310185
+***** Model: euclidean , Dataset:fewevent, N:10, K:5, seed:4 *****
+Test result - F1 : 0.303918
+***** Model: euclidean , Dataset:fewevent, N:10, K:5, seed:5 *****
+Test result - F1 : 0.305700
+***** Model: euclidean , Dataset:fewevent, N:10, K:10, seed:1 *****
+Test result - F1 : 0.199593
+***** Model: euclidean , Dataset:fewevent, N:10, K:10, seed:2 *****
+Test result - F1 : 0.198519
+***** Model: euclidean , Dataset:fewevent, N:10, K:10, seed:3 *****
+Test result - F1 : 0.197133
+***** Model: euclidean , Dataset:fewevent, N:10, K:10, seed:4 *****
+Test result - F1 : 0.198222
+***** Model: euclidean , Dataset:fewevent, N:10, K:10, seed:5 *****
+Test result - F1 : 0.196717
+***** Model: dot , Dataset:fewevent, N:5, K:5, seed:1 *****
+Test result - F1 : 0.132196
+***** Model: dot , Dataset:fewevent, N:5, K:5, seed:2 *****
+Test result - F1 : 0.131811
+***** Model: dot , Dataset:fewevent, N:5, K:5, seed:3 *****
+Test result - F1 : 0.130836
+***** Model: dot , Dataset:fewevent, N:5, K:5, seed:4 *****
+Test result - F1 : 0.130696
+***** Model: dot , Dataset:fewevent, N:5, K:5, seed:5 *****
+Test result - F1 : 0.134281
+***** Model: dot , Dataset:fewevent, N:5, K:10, seed:1 *****
+Test result - F1 : 0.093602
+***** Model: dot , Dataset:fewevent, N:5, K:10, seed:2 *****
+Test result - F1 : 0.089599
+***** Model: dot , Dataset:fewevent, N:5, K:10, seed:3 *****
+Test result - F1 : 0.092430
+***** Model: dot , Dataset:fewevent, N:5, K:10, seed:4 *****
+Test result - F1 : 0.089089
+***** Model: dot , Dataset:fewevent, N:5, K:10, seed:5 *****
+Test result - F1 : 0.091405
+***** Model: dot , Dataset:fewevent, N:10, K:5, seed:1 *****
+Test result - F1 : 0.075935
+***** Model: dot , Dataset:fewevent, N:10, K:5, seed:2 *****
+Test result - F1 : 0.074965
+***** Model: dot , Dataset:fewevent, N:10, K:5, seed:3 *****
+Test result - F1 : 0.079556
+***** Model: dot , Dataset:fewevent, N:10, K:5, seed:4 *****
+Test result - F1 : 0.072691
+***** Model: dot , Dataset:fewevent, N:10, K:5, seed:5 *****
+Test result - F1 : 0.074402
+***** Model: dot , Dataset:fewevent, N:10, K:10, seed:1 *****
+Test result - F1 : 0.093670
+***** Model: dot , Dataset:fewevent, N:10, K:10, seed:2 *****
+Test result - F1 : 0.096156
+***** Model: dot , Dataset:fewevent, N:10, K:10, seed:3 *****
+Test result - F1 : 0.095764
+***** Model: dot , Dataset:fewevent, N:10, K:10, seed:4 *****
+Test result - F1 : 0.096204
+***** Model: dot , Dataset:fewevent, N:10, K:10, seed:5 *****
+Test result - F1 : 0.094214
+***** Model: relation , Dataset:fewevent, N:5, K:5, seed:1 *****
+Test result - F1 : 0.048377
+***** Model: relation , Dataset:fewevent, N:5, K:5, seed:2 *****
+Test result - F1 : 0.048454
+***** Model: relation , Dataset:fewevent, N:5, K:5, seed:3 *****
+Test result - F1 : 0.047224
+***** Model: relation , Dataset:fewevent, N:5, K:5, seed:4 *****
+Test result - F1 : 0.047994
+***** Model: relation , Dataset:fewevent, N:5, K:5, seed:5 *****
+Test result - F1 : 0.046569
+***** Model: relation , Dataset:fewevent, N:5, K:10, seed:1 *****
+Test result - F1 : 0.056814
+***** Model: relation , Dataset:fewevent, N:5, K:10, seed:2 *****
+Test result - F1 : 0.051619
+***** Model: relation , Dataset:fewevent, N:5, K:10, seed:3 *****
+Test result - F1 : 0.053498
+***** Model: relation , Dataset:fewevent, N:5, K:10, seed:4 *****
+Test result - F1 : 0.054945
+***** Model: relation , Dataset:fewevent, N:5, K:10, seed:5 *****
+Test result - F1 : 0.052852
+***** Model: relation , Dataset:fewevent, N:10, K:5, seed:1 *****
+Test result - F1 : 0.035520
+***** Model: relation , Dataset:fewevent, N:10, K:5, seed:2 *****
+Test result - F1 : 0.036112
+***** Model: relation , Dataset:fewevent, N:10, K:5, seed:3 *****
+Test result - F1 : 0.036881
+***** Model: relation , Dataset:fewevent, N:10, K:5, seed:4 *****
+Test result - F1 : 0.035872
+***** Model: relation , Dataset:fewevent, N:10, K:5, seed:5 *****
+Test result - F1 : 0.036099
+***** Model: relation , Dataset:fewevent, N:10, K:10, seed:1 *****
+Test result - F1 : 0.041573
+***** Model: relation , Dataset:fewevent, N:10, K:10, seed:2 *****
+Test result - F1 : 0.042134
+***** Model: relation , Dataset:fewevent, N:10, K:10, seed:3 *****
+Test result - F1 : 0.040959
+***** Model: relation , Dataset:fewevent, N:10, K:10, seed:4 *****
+Test result - F1 : 0.040613
+***** Model: relation , Dataset:fewevent, N:10, K:10, seed:5 *****
+Test result - F1 : 0.041729
+***** Model: pacrf , Dataset:fewevent, N:5, K:5, seed:1 *****
+Test result - F1 : 0.478192
+***** Model: pacrf , Dataset:fewevent, N:5, K:5, seed:2 *****
+Test result - F1 : 0.479197
+***** Model: pacrf , Dataset:fewevent, N:5, K:5, seed:3 *****
+Test result - F1 : 0.487681
+***** Model: pacrf , Dataset:fewevent, N:5, K:5, seed:4 *****
+Test result - F1 : 0.479385
+***** Model: pacrf , Dataset:fewevent, N:5, K:5, seed:5 *****
+Test result - F1 : 0.487638
+***** Model: pacrf , Dataset:fewevent, N:5, K:10, seed:1 *****
+Test result - F1 : 0.336019
+***** Model: pacrf , Dataset:fewevent, N:5, K:10, seed:2 *****
+Test result - F1 : 0.324603
+***** Model: pacrf , Dataset:fewevent, N:5, K:10, seed:3 *****
+Test result - F1 : 0.344095
+***** Model: pacrf , Dataset:fewevent, N:5, K:10, seed:4 *****
+Test result - F1 : 0.325210
+***** Model: pacrf , Dataset:fewevent, N:5, K:10, seed:5 *****
+Test result - F1 : 0.305286
+***** Model: pacrf , Dataset:fewevent, N:10, K:5, seed:1 *****
+Test result - F1 : 0.042635
+***** Model: pacrf , Dataset:fewevent, N:10, K:5, seed:2 *****
+Test result - F1 : 0.041011
+***** Model: pacrf , Dataset:fewevent, N:10, K:5, seed:3 *****
+Test result - F1 : 0.044605
+***** Model: pacrf , Dataset:fewevent, N:10, K:5, seed:4 *****
+Test result - F1 : 0.042623
+***** Model: pacrf , Dataset:fewevent, N:10, K:5, seed:5 *****
+Test result - F1 : 0.042417
+***** Model: pacrf , Dataset:fewevent, N:10, K:10, seed:1 *****
+Test result - F1 : 0.029324
+***** Model: pacrf , Dataset:fewevent, N:10, K:10, seed:2 *****
+Test result - F1 : 0.028558
+***** Model: pacrf , Dataset:fewevent, N:10, K:10, seed:3 *****
+Test result - F1 : 0.029451
+***** Model: pacrf , Dataset:fewevent, N:10, K:10, seed:4 *****
+Test result - F1 : 0.029516
+***** Model: pacrf , Dataset:fewevent, N:10, K:10, seed:5 *****
+Test result - F1 : 0.028728
+***** Model: vanilla , Dataset:fewevent, N:5, K:5, seed:1 *****
+Test result - F1 : 0.083358
+***** Model: vanilla , Dataset:fewevent, N:5, K:5, seed:2 *****
+Test result - F1 : 0.082561
+***** Model: vanilla , Dataset:fewevent, N:5, K:5, seed:3 *****
+Test result - F1 : 0.081013
+***** Model: vanilla , Dataset:fewevent, N:5, K:5, seed:4 *****
+Test result - F1 : 0.080321
+***** Model: vanilla , Dataset:fewevent, N:5, K:5, seed:5 *****
+Test result - F1 : 0.084082
+***** Model: vanilla , Dataset:fewevent, N:5, K:10, seed:1 *****
+Test result - F1 : 0.101766
+***** Model: vanilla , Dataset:fewevent, N:5, K:10, seed:2 *****
+Test result - F1 : 0.097802
+***** Model: vanilla , Dataset:fewevent, N:5, K:10, seed:3 *****
+Test result - F1 : 0.098384
+***** Model: vanilla , Dataset:fewevent, N:5, K:10, seed:4 *****
+Test result - F1 : 0.099407
+***** Model: vanilla , Dataset:fewevent, N:5, K:10, seed:5 *****
+Test result - F1 : 0.098393
+***** Model: vanilla , Dataset:fewevent, N:10, K:5, seed:1 *****
+Test result - F1 : 0.058775
+***** Model: vanilla , Dataset:fewevent, N:10, K:5, seed:2 *****
+Test result - F1 : 0.060807
+***** Model: vanilla , Dataset:fewevent, N:10, K:5, seed:3 *****
+Test result - F1 : 0.063102
+***** Model: vanilla , Dataset:fewevent, N:10, K:5, seed:4 *****
+Test result - F1 : 0.060256
+***** Model: vanilla , Dataset:fewevent, N:10, K:5, seed:5 *****
+Test result - F1 : 0.060129
+***** Model: vanilla , Dataset:fewevent, N:10, K:10, seed:1 *****
+Test result - F1 : 0.057261
+***** Model: vanilla , Dataset:fewevent, N:10, K:10, seed:2 *****
+Test result - F1 : 0.057734
+***** Model: vanilla , Dataset:fewevent, N:10, K:10, seed:3 *****
+Test result - F1 : 0.056351
+***** Model: vanilla , Dataset:fewevent, N:10, K:10, seed:4 *****
+Test result - F1 : 0.056749
+***** Model: vanilla , Dataset:fewevent, N:10, K:10, seed:5 *****
+Test result - F1 : 0.058519

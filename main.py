@@ -8,15 +8,14 @@ from torch.utils.data import DataLoader
 from utils import collate_fn, load_dataset
 from model import SpanFSED
 from metric import Metric
+from sentence_transformer import get_framenet
 from transformers import (
     AdamW,
     AutoTokenizer,
     get_linear_schedule_with_warmup,
 )
-
 import logging
 logger = logging.getLogger(__name__)
-
 
 def set_seed(args):
     random.seed(args.seed)
@@ -29,7 +28,6 @@ def train(args, model, train_dataloader, dev_dataloader):
     train_epoch = args.train_epoch
     eval_step = args.eval_step
     eval_epoch = args.eval_epoch
-
     trainN = args.N
 
     parameters_to_optimize = list(model.named_parameters())
@@ -82,7 +80,6 @@ def train(args, model, train_dataloader, dev_dataloader):
 def evaluate(args, model, eval_dataloader, eval_epoch):
 
     evalN = args.N
-
     model.eval() 
     metric = Metric()
     eval_iterator = trange(eval_epoch, desc="Evaluating")
@@ -98,22 +95,19 @@ def evaluate(args, model, eval_dataloader, eval_epoch):
             metric.update_state(pred, query_set["mention_ids"], id2label)
     return metric.result()
 
-
 def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--seed', default=42, type=int, 
                         help='seed')
-    parser.add_argument('--data_dir', default='./data/maven', type=str)
+    parser.add_argument('--data_dir', default='./data/ere', type=str)
     parser.add_argument("--model_name_or_path", default='../bert/bert-base-uncased', type=str, help="Path to pre-trained model or shortcut name selected in the list: ")
     parser.add_argument("--output_dir", default='output', type=str, 
                         help="The output directory where the model predictions and checkpoints will be written.")
-
     parser.add_argument("--do_train", action="store_true",
                         help="Whether to run training.")
     parser.add_argument("--do_eval", action="store_true",
                         help="Whether to run eval on the dev set.")
-
     parser.add_argument('--max_len', default=128, type=int, 
                         help='max sentence length')
     parser.add_argument('--N', default=5, type=int, 
@@ -122,20 +116,18 @@ def main():
                         help="K")
     parser.add_argument('--Q', default=1, type=int, 
                         help="Q")
-
     parser.add_argument('--dropout_prob', default=0.1, type=float, 
                         help='dropout rate')
     parser.add_argument('--learning_rate', default=3e-5, type=float, 
                         help='learnint rate')
-    parser.add_argument('--train_epoch', default=2000, type=int, 
+    parser.add_argument('--train_epoch', default=200, type=int, 
                         help='train epoch')
-    parser.add_argument('--eval_epoch', default=200, type=int, 
+    parser.add_argument('--eval_epoch', default=50, type=int, 
                         help='eval epoch')
-    parser.add_argument('--eval_step', default=100, type=int, 
+    parser.add_argument('--eval_step', default=50, type=int, 
                         help='eval step')
-    parser.add_argument('--test_epoch', default=300, type=int, 
+    parser.add_argument('--test_epoch', default=500, type=int, 
                         help='test epoch') 
-    
     args = parser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -154,6 +146,9 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     args.tokenizer = tokenizer
 
+    dataset_name = args.data_dir.split('/')[-1]
+    framenet = get_framenet(dataset_name)
+    args.framenet = framenet
     # load dataset    
     dataset = load_dataset(args)
     train_dataloader = DataLoader(dataset=dataset["train"],
@@ -197,8 +192,7 @@ def main():
         model.to(args.device)
 
         F1 = evaluate(args, model, test_dataloader, args.test_epoch)
-        dataset_name = args.data_dir.split('/')[-1]
-
+    
         result = '***** Model: SpanFSED , Dataset:{}, N:{}, K:{}, seed:{} *****\n'.format(dataset_name, args.N, args.K, args.seed)
         result += f"Test result - F1 : {F1:.6f}"
         with open(os.path.join(args.output_dir,'test_result.txt'),'a') as f:

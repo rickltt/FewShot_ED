@@ -4,8 +4,22 @@ import random
 import json
 from collections import OrderedDict
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoTokenizer
+from nltk.corpus import wordnet as wn
+from nltk import pos_tag
 
+# 获取单词的词性
+def get_wordnet_pos(tag):
+    if tag.startswith('J'):
+        return wn.ADJ
+    elif tag.startswith('V'):
+        return wn.VERB
+    elif tag.startswith('N'):
+        return wn.NOUN
+    elif tag.startswith('R'):
+        return wn.ADV
+    else:
+        return None
+    
 def collate_fn(data):
 
     support = data[0][0]
@@ -19,12 +33,14 @@ class FewEventDataset(Dataset):
     def __init__(self, 
                  raw_data, 
                  tokenizer,
+                 framenet,
                  max_length = 128, 
                  N=5, K=5, Q=1):
         self.raw_data = raw_data
         self.classes = self.raw_data.keys()
         self.max_length = max_length
         self.tokenizer = tokenizer
+        self.framenet = framenet
         
         self.N = N
         self.K = K
@@ -40,11 +56,6 @@ class FewEventDataset(Dataset):
         id2label[0] = 'O'
         label2id['PAD'] = -100
         id2label[-100] = 'PAD'
-        # for i, event_type in enumerate(event_type_list):
-        #     label2id['B-' + event_type] = 2*i + 1
-        #     label2id['I-' + event_type] = 2*i + 2
-        #     id2label[2*i + 1] = 'B-' + event_type
-        #     id2label[2*i + 2] = 'I-' + event_type
         
         return label2id, id2label
     
@@ -148,6 +159,41 @@ class FewEventDataset(Dataset):
 
         return input_ids, attention_mask, token_type_ids, mention_ids, span_ids
 
+    def enhance(self, support_samples, target_classes):
+        enhance_samples = []
+        enhance_samples.extend(support_samples)
+        for support in support_samples:
+            enhance = {"id":str(support["id"])+"_enhance","tokens": support["tokens"], "events":[]}
+            for j in support["events"]:
+                if j["event_type"] in target_classes:
+                    enhance_event = j
+                    trigger_len = j["end"] - j["start"]
+                    trigger = j["text"]
+                    trigger_tag = get_wordnet_pos(pos_tag([trigger])[0][-1])
+                    lu_list = list(self.framenet[j["event_type"]].lexUnit.keys())
+                    lu = None
+                    for lexunit in lu_list:
+                        word = lexunit.split('.')[0]
+                        word_len = len(word.split(' '))
+                        tag = lexunit.split('.')[1]
+                        if word_len == trigger_len and tag == trigger_tag:
+                            lu = word
+                            break
+                    if lu is None:
+                        continue
+                    # while lu is None:
+                    #     sample_lu = random.sample(lu_list,1)[0]
+                    #     word = sample_lu.split('.')[0]
+                    #     word_len = len(word.split(' '))
+                    #     tag = sample_lu.split('.')[1]
+                    #     # if word_len == trigger_len and tag == trigger_tag:
+                    #     if word_len == trigger_len:
+                    #         lu = word
+                    enhance_event["text"] = lu
+                    enhance["events"].append(enhance_event)
+            enhance_samples.append(enhance)
+        return enhance_samples
+
     def __len__(self):
         return 99999999
 
@@ -162,7 +208,8 @@ class FewEventDataset(Dataset):
         query_set = {'input_ids': [], 'attention_mask': [], 'token_type_ids': [], 'mention_ids': [], 'span_ids': [] }
 
         support_samples = self.__sample__(target_classes, self.K)
-        for sample in support_samples:
+        enhance_samples = self.enhance(support_samples, target_classes)
+        for sample in enhance_samples:
             instance = self.preprocess(sample, target_classes)
             # token_ids, label_ids, B_mask, I_mask, text_mask, att_mask = self.tokenize(instance, label2id)
             input_ids, attention_mask, token_type_ids, mention_ids, span_ids = self.tokenize(instance, label2id)
@@ -199,6 +246,7 @@ def load_dataset(args):
         raw_data = json.load(open(data_path,"r"))
         dataset[mode] = FewEventDataset(raw_data,
                                         args.tokenizer, 
+                                        args.framenet,
                                         args.max_len, 
                                         args.N, args.K, args.Q)
     return dataset

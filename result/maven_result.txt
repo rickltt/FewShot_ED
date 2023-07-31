@@ -1,0 +1,240 @@
+***** Model: cosine , Dataset:maven, N:5, K:5, seed:1 *****
+Test result - F1 : 0.469983
+***** Model: cosine , Dataset:maven, N:5, K:5, seed:2 *****
+Test result - F1 : 0.473819
+***** Model: cosine , Dataset:maven, N:5, K:5, seed:3 *****
+Test result - F1 : 0.470022
+***** Model: cosine , Dataset:maven, N:5, K:5, seed:4 *****
+Test result - F1 : 0.477533
+***** Model: cosine , Dataset:maven, N:5, K:5, seed:5 *****
+Test result - F1 : 0.477220
+***** Model: cosine , Dataset:maven, N:5, K:10, seed:1 *****
+Test result - F1 : 0.590360
+***** Model: cosine , Dataset:maven, N:5, K:10, seed:2 *****
+Test result - F1 : 0.590983
+***** Model: cosine , Dataset:maven, N:5, K:10, seed:3 *****
+Test result - F1 : 0.589783
+***** Model: cosine , Dataset:maven, N:5, K:10, seed:4 *****
+Test result - F1 : 0.589590
+***** Model: cosine , Dataset:maven, N:5, K:10, seed:5 *****
+Test result - F1 : 0.589852
+***** Model: cosine , Dataset:maven, N:10, K:5, seed:1 *****
+Test result - F1 : 0.243210
+***** Model: cosine , Dataset:maven, N:10, K:5, seed:2 *****
+Test result - F1 : 0.246340
+***** Model: cosine , Dataset:maven, N:10, K:5, seed:3 *****
+Test result - F1 : 0.247166
+***** Model: cosine , Dataset:maven, N:10, K:5, seed:4 *****
+Test result - F1 : 0.241721
+***** Model: cosine , Dataset:maven, N:10, K:5, seed:5 *****
+Test result - F1 : 0.248330
+***** Model: cosine , Dataset:maven, N:10, K:10, seed:1 *****
+Test result - F1 : 0.497243
+***** Model: cosine , Dataset:maven, N:10, K:10, seed:2 *****
+Test result - F1 : 0.492122
+***** Model: cosine , Dataset:maven, N:10, K:10, seed:3 *****
+Test result - F1 : 0.496259
+***** Model: cosine , Dataset:maven, N:10, K:10, seed:4 *****
+Test result - F1 : 0.501326
+***** Model: cosine , Dataset:maven, N:10, K:10, seed:5 *****
+Test result - F1 : 0.499153
+***** Model: euclidean , Dataset:maven, N:5, K:5, seed:1 *****
+Test result - F1 : 0.718487
+***** Model: euclidean , Dataset:maven, N:5, K:5, seed:2 *****
+Test result - F1 : 0.719644
+***** Model: euclidean , Dataset:maven, N:5, K:5, seed:3 *****
+Test result - F1 : 0.720470
+***** Model: euclidean , Dataset:maven, N:5, K:5, seed:4 *****
+Test result - F1 : 0.723059
+***** Model: euclidean , Dataset:maven, N:5, K:5, seed:5 *****
+Test result - F1 : 0.723431
+***** Model: euclidean , Dataset:maven, N:5, K:10, seed:1 *****
+Test result - F1 : 0.773636
+***** Model: euclidean , Dataset:maven, N:5, K:10, seed:2 *****
+Test result - F1 : 0.771005
+***** Model: euclidean , Dataset:maven, N:5, K:10, seed:3 *****
+Test result - F1 : 0.771752
+***** Model: euclidean , Dataset:maven, N:5, K:10, seed:4 *****
+Test result - F1 : 0.770120
+***** Model: euclidean , Dataset:maven, N:5, K:10, seed:5 *****
+Test result - F1 : 0.772182
+***** Model: euclidean , Dataset:maven, N:10, K:5, seed:1 *****
+Test result - F1 : 0.672983
+***** Model: euclidean , Dataset:maven, N:10, K:5, seed:2 *****
+Test result - F1 : 0.673745
+***** Model: euclidean , Dataset:maven, N:10, K:5, seed:3 *****
+Test result - F1 : 0.674976
+***** Model: euclidean , Dataset:maven, N:10, K:5, seed:4 *****
+Test result - F1 : 0.674976
+***** Model: euclidean , Dataset:maven, N:10, K:5, seed:5 *****
+Test result - F1 : 0.674945
+***** Model: euclidean , Dataset:maven, N:10, K:10, seed:1 *****
+Test result - F1 : 0.606840
+***** Model: euclidean , Dataset:maven, N:10, K:10, seed:2 *****
+Test result - F1 : 0.605854
+***** Model: euclidean , Dataset:maven, N:10, K:10, seed:3 *****
+Test result - F1 : 0.607427
+***** Model: euclidean , Dataset:maven, N:10, K:10, seed:4 *****
+Test result - F1 : 0.609411
+***** Model: euclidean , Dataset:maven, N:10, K:10, seed:5 *****
+Test result - F1 : 0.608089
+***** Model: dot , Dataset:maven, N:5, K:5, seed:1 *****
+Test result - F1 : 0.694429
+***** Model: dot , Dataset:maven, N:5, K:5, seed:2 *****
+Test result - F1 : 0.690438
+***** Model: dot , Dataset:maven, N:5, K:5, seed:3 *****
+Test result - F1 : 0.702594
+***** Model: dot , Dataset:maven, N:5, K:5, seed:4 *****
+Test result - F1 : 0.708078
+***** Model: dot , Dataset:maven, N:5, K:5, seed:5 *****
+Test result - F1 : 0.692620
+***** Model: dot , Dataset:maven, N:5, K:10, seed:1 *****
+Test result - F1 : 0.711958
+***** Model: dot , Dataset:maven, N:5, K:10, seed:2 *****
+Test result - F1 : 0.730477
+***** Model: dot , Dataset:maven, N:5, K:10, seed:3 *****
+Test result - F1 : 0.730357
+***** Model: dot , Dataset:maven, N:5, K:10, seed:4 *****
+Test result - F1 : 0.715315
+***** Model: dot , Dataset:maven, N:5, K:10, seed:5 *****
+Test result - F1 : 0.724216
+***** Model: dot , Dataset:maven, N:10, K:5, seed:1 *****
+Test result - F1 : 0.551868
+***** Model: dot , Dataset:maven, N:10, K:5, seed:2 *****
+Test result - F1 : 0.554128
+***** Model: dot , Dataset:maven, N:10, K:5, seed:3 *****
+Test result - F1 : 0.556567
+***** Model: dot , Dataset:maven, N:10, K:5, seed:4 *****
+Test result - F1 : 0.579806
+***** Model: dot , Dataset:maven, N:10, K:5, seed:5 *****
+Test result - F1 : 0.560743
+***** Model: dot , Dataset:maven, N:10, K:10, seed:1 *****
+Test result - F1 : 0.580549
+***** Model: dot , Dataset:maven, N:10, K:10, seed:2 *****
+Test result - F1 : 0.573485
+***** Model: dot , Dataset:maven, N:10, K:10, seed:3 *****
+Test result - F1 : 0.586828
+***** Model: dot , Dataset:maven, N:10, K:10, seed:4 *****
+Test result - F1 : 0.608290
+***** Model: dot , Dataset:maven, N:10, K:10, seed:5 *****
+Test result - F1 : 0.578766
+***** Model: relation , Dataset:maven, N:5, K:5, seed:1 *****
+Test result - F1 : 0.376982
+***** Model: relation , Dataset:maven, N:5, K:5, seed:2 *****
+Test result - F1 : 0.374878
+***** Model: relation , Dataset:maven, N:5, K:5, seed:3 *****
+Test result - F1 : 0.382473
+***** Model: relation , Dataset:maven, N:5, K:5, seed:4 *****
+Test result - F1 : 0.385871
+***** Model: relation , Dataset:maven, N:5, K:5, seed:5 *****
+Test result - F1 : 0.384644
+***** Model: relation , Dataset:maven, N:5, K:10, seed:1 *****
+Test result - F1 : 0.402031
+***** Model: relation , Dataset:maven, N:5, K:10, seed:2 *****
+Test result - F1 : 0.393781
+***** Model: relation , Dataset:maven, N:5, K:10, seed:3 *****
+Test result - F1 : 0.390950
+***** Model: relation , Dataset:maven, N:5, K:10, seed:4 *****
+Test result - F1 : 0.400055
+***** Model: relation , Dataset:maven, N:5, K:10, seed:5 *****
+Test result - F1 : 0.381379
+***** Model: relation , Dataset:maven, N:10, K:5, seed:1 *****
+Test result - F1 : 0.398324
+***** Model: relation , Dataset:maven, N:10, K:5, seed:2 *****
+Test result - F1 : 0.393552
+***** Model: relation , Dataset:maven, N:10, K:5, seed:3 *****
+Test result - F1 : 0.397025
+***** Model: relation , Dataset:maven, N:10, K:5, seed:4 *****
+Test result - F1 : 0.396801
+***** Model: relation , Dataset:maven, N:10, K:5, seed:5 *****
+Test result - F1 : 0.398654
+***** Model: relation , Dataset:maven, N:10, K:10, seed:1 *****
+Test result - F1 : 0.423645
+***** Model: relation , Dataset:maven, N:10, K:10, seed:2 *****
+Test result - F1 : 0.426125
+***** Model: relation , Dataset:maven, N:10, K:10, seed:3 *****
+Test result - F1 : 0.426294
+***** Model: relation , Dataset:maven, N:10, K:10, seed:4 *****
+Test result - F1 : 0.429338
+***** Model: relation , Dataset:maven, N:10, K:10, seed:5 *****
+Test result - F1 : 0.427274
+***** Model: pacrf , Dataset:maven, N:5, K:5, seed:1 *****
+Test result - F1 : 0.771917
+***** Model: pacrf , Dataset:maven, N:5, K:5, seed:2 *****
+Test result - F1 : 0.767680
+***** Model: pacrf , Dataset:maven, N:5, K:5, seed:3 *****
+Test result - F1 : 0.768050
+***** Model: pacrf , Dataset:maven, N:5, K:5, seed:4 *****
+Test result - F1 : 0.773067
+***** Model: pacrf , Dataset:maven, N:5, K:5, seed:5 *****
+Test result - F1 : 0.772334
+***** Model: pacrf , Dataset:maven, N:5, K:10, seed:1 *****
+Test result - F1 : 0.741779
+***** Model: pacrf , Dataset:maven, N:5, K:10, seed:2 *****
+Test result - F1 : 0.758058
+***** Model: pacrf , Dataset:maven, N:5, K:10, seed:3 *****
+Test result - F1 : 0.759797
+***** Model: pacrf , Dataset:maven, N:5, K:10, seed:4 *****
+Test result - F1 : 0.749698
+***** Model: pacrf , Dataset:maven, N:5, K:10, seed:5 *****
+Test result - F1 : 0.755243
+***** Model: pacrf , Dataset:maven, N:10, K:5, seed:1 *****
+Test result - F1 : 0.739769
+***** Model: pacrf , Dataset:maven, N:10, K:5, seed:2 *****
+Test result - F1 : 0.740001
+***** Model: pacrf , Dataset:maven, N:10, K:5, seed:3 *****
+Test result - F1 : 0.739950
+***** Model: pacrf , Dataset:maven, N:10, K:5, seed:4 *****
+Test result - F1 : 0.737648
+***** Model: pacrf , Dataset:maven, N:10, K:5, seed:5 *****
+Test result - F1 : 0.737236
+***** Model: pacrf , Dataset:maven, N:10, K:10, seed:1 *****
+Test result - F1 : 0.755959
+***** Model: pacrf , Dataset:maven, N:10, K:10, seed:2 *****
+Test result - F1 : 0.756412
+***** Model: pacrf , Dataset:maven, N:10, K:10, seed:3 *****
+Test result - F1 : 0.757226
+***** Model: pacrf , Dataset:maven, N:10, K:10, seed:4 *****
+Test result - F1 : 0.759438
+***** Model: pacrf , Dataset:maven, N:10, K:10, seed:5 *****
+Test result - F1 : 0.757475
+***** Model: vanilla , Dataset:maven, N:5, K:5, seed:1 *****
+Test result - F1 : 0.636490
+***** Model: vanilla , Dataset:maven, N:5, K:5, seed:2 *****
+Test result - F1 : 0.619468
+***** Model: vanilla , Dataset:maven, N:5, K:5, seed:3 *****
+Test result - F1 : 0.634123
+***** Model: vanilla , Dataset:maven, N:5, K:5, seed:4 *****
+Test result - F1 : 0.640429
+***** Model: vanilla , Dataset:maven, N:5, K:5, seed:5 *****
+Test result - F1 : 0.621955
+***** Model: vanilla , Dataset:maven, N:5, K:10, seed:1 *****
+Test result - F1 : 0.793580
+***** Model: vanilla , Dataset:maven, N:5, K:10, seed:2 *****
+Test result - F1 : 0.794478
+***** Model: vanilla , Dataset:maven, N:5, K:10, seed:3 *****
+Test result - F1 : 0.794478
+***** Model: vanilla , Dataset:maven, N:5, K:10, seed:4 *****
+Test result - F1 : 0.793509
+***** Model: vanilla , Dataset:maven, N:5, K:10, seed:5 *****
+Test result - F1 : 0.794405
+***** Model: vanilla , Dataset:maven, N:10, K:5, seed:1 *****
+Test result - F1 : 0.580832
+***** Model: vanilla , Dataset:maven, N:10, K:5, seed:2 *****
+Test result - F1 : 0.590290
+***** Model: vanilla , Dataset:maven, N:10, K:5, seed:3 *****
+Test result - F1 : 0.600691
+***** Model: vanilla , Dataset:maven, N:10, K:5, seed:4 *****
+Test result - F1 : 0.587519
+***** Model: vanilla , Dataset:maven, N:10, K:5, seed:5 *****
+Test result - F1 : 0.585359
+***** Model: vanilla , Dataset:maven, N:10, K:10, seed:1 *****
+Test result - F1 : 0.637882
+***** Model: vanilla , Dataset:maven, N:10, K:10, seed:2 *****
+Test result - F1 : 0.641545
+***** Model: vanilla , Dataset:maven, N:10, K:10, seed:3 *****
+Test result - F1 : 0.644589
+***** Model: vanilla , Dataset:maven, N:10, K:10, seed:4 *****
+Test result - F1 : 0.649741
+***** Model: vanilla , Dataset:maven, N:10, K:10, seed:5 *****
+Test result - F1 : 0.642147
