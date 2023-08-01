@@ -63,7 +63,7 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | Relation      | 11.25 $\pm$ 0.21 | 23.33 $\pm$ 0.56  | 5.33 $\pm$ 0.22   | 12.55 $\pm$ 0.14 |
 | VanillaCRF      | 27.55 $\pm$ 0.56 | 41.75 $\pm$ 0.46  | 11.35 $\pm$ 0.05  | 15.86 $\pm$ 0.11 |
 | PACRF      | 52.61 $\pm$ 0.36 | 42.18 $\pm$ 1.52  | 36.78 $\pm$ 0.41  | 28.42 $\pm$ 0.32 |
-| SpanFSED     | (-,-,-) | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| SpanFSED     | **56.22** $\pm$ **0.33** | **54.53** $\pm$ **0.22**  | **49.62** $\pm$ **0.26**   | **50.76** $\pm$ **0.36** |
 
 ### ERE
 
@@ -75,7 +75,7 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | Relation    | 21.93 $\pm$ 0.37 | 23.79 $\pm$ 0.34  | 12.50 $\pm$ 0.15  | 19.14 $\pm$ 0.12 |
 | VanillaCRF  | 30.91 $\pm$ 0.49 | 51.58 $\pm$ 0.28  | 27.34 $\pm$ 0.04  | 25.48 $\pm$ 0.10 |
 | PACRF       | 49.57 $\pm$ 0.33 | 63.33 $\pm$ 0.21  | 46.67 $\pm$ 0.30  | 39.68 $\pm$ 0.16 |
-| SpanFSED    | (-,-,-)          | (-,-,-)  | (-,-,-)   | (-,-,-) |
+| SpanFSED    | **51.78** $\pm$ **0.22** | 57.09 $\pm$ 0.27  | 45.21 $\pm$ 0.19   | 47.48 $\pm$ 0.15 |
 
 ### FewEvent
 
