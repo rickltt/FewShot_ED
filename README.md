@@ -28,7 +28,7 @@ For ERE, we adopt the top 30 classes with the most samples and split into 10/10/
 | ACE2005      | 30   | 10      | 10      | 10 |
 | ERE     | 30   | 10      | 10      | 10 |
 | FewEvent  | 100      | 80     | 10 |20    |
-| MAVEN   | 100      | 64       |  16| 10     |
+| MAVEN   | 100      | 64       |  16| 20     |
 
 
 ## Models
@@ -47,8 +47,9 @@ CRF-based:
 
 - **Vanilla CRF**: adopt the vanilla CRF in the FSED task without considering the adaptation problem.
 - **PA-CRF**: exploring event type dependencies via Gaussian distribution for approximation.
+- **SpanFSED**: introducing a global boundary matrix and an external knowledge base.
 
-
+<!--
 ## Results (F1 scores)
 
 We run each experiment 5 times with 5 five different seeds to get the averages and standard deviations for fair comparison.
@@ -58,8 +59,8 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | **Model**      | **5-way-5-shot** | **5-way-10-shot** | **10-way-5-shot** | **10-way-10-shot** |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Match      | 24.29 $\pm$ 0.22 | 40.21 $\pm$ 0.41  | 19.29 $\pm$ 0.18  | 26.91 $\pm$ 0.08 |
-| Proto      | 53.49 $\pm$ 0.41 | 34.05 $\pm$ 0.94  | **50.63** $\pm$ **0.10**   | 32.66 $\pm$ 0.17 |
-| Proto-dot      | 23.59 $\pm$ 0.42 | 19.46 $\pm$ 0.11 | 14.09 $\pm$ 0.05  | 11.03 $\pm$ 0.09 |
+| Proto      | 34.05 $\pm$ 0.94 | 53.49 $\pm$ 0.41  | **50.63** $\pm$ **0.10**   | 32.66 $\pm$ 0.17 |
+| Proto-dot      | 19.46 $\pm$ 0.11 | 23.59 $\pm$ 0.42 | 14.09 $\pm$ 0.05  | 11.03 $\pm$ 0.09 |
 | Relation      | 11.25 $\pm$ 0.21 | 23.33 $\pm$ 0.56  | 5.33 $\pm$ 0.22   | 12.55 $\pm$ 0.14 |
 | VanillaCRF      | 27.55 $\pm$ 0.56 | 41.75 $\pm$ 0.46  | 11.35 $\pm$ 0.05  | 15.86 $\pm$ 0.11 |
 | PACRF      | 52.61 $\pm$ 0.36 | 42.18 $\pm$ 1.52  | 36.78 $\pm$ 0.41  | 28.42 $\pm$ 0.32 |
@@ -100,3 +101,4 @@ We run each experiment 5 times with 5 five different seeds to get the averages a
 | VanillaCRF   | 63.05 $\pm$ 0.83 | 69.41 $\pm$ 0.04| 58.89 $\pm$ 0.66 | 64.32 $\pm$ 0.39 |
 | PACRF      | 77.06 $\pm$ 0.23 | 75.29 $\pm$ 0.65 | 73.89 $\pm$ 0.12  | 75.73 $\pm$ 0.12 |
 | SpanFSED    | **77.91** $\pm$ **0.16** | **78.89** $\pm$ **0.66**  | **74.64** $\pm$ **0.12**   | **76.14** $\pm$ **0.17** |
+-->
